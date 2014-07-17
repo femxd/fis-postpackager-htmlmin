@@ -1,6 +1,6 @@
 {
   "name": "fis-postpackager-htmlmin",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "Minify HTML",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "html",
     "compress",
     "minifier",
-    "htmlmin"
+    "htmlmin",
+    "postpackager"
   ],
   "repository": {
     "type": "git",
@@ -29,15 +30,8 @@
     "chalk": "~0.4.0",
     "html-minifier": "~0.6.0"
   },
-  "readme": "\r\n# fis-optimizer-htmlmin\r\n\r\n> Minify HTML with fis\r\n\r\n\r\n\r\n## Getting Started\r\nThis plugin requires fis\r\n\r\nIf you haven't used [fis](https://github.com/fex-team/fis) before, be sure to check out the [Getting Started](http://fis.baidu.com/docs/beginning/getting-started.html) guide, as it explains how to create a [fis-conf.js](http://fis.baidu.com/docs/api/fis-conf.html) as well as install and use fis plugins. Once you're familiar with that process, you may install this plugin with this command:\r\n\r\n```shell\r\nnpm install fis-optimizer-htmlmin -g\r\n```\r\n\r\n## Htmlmin task\r\n_Run this task with the `fis release -o` command._\r\n\r\nMinifies HTML using [html-minifier](https://github.com/kangax/html-minifier). Bugs regarding the output should be reported [here](https://github.com/kangax/html-minifier/issues/new).\r\n\r\n### Options\r\n\r\nSee the html-minifier [options](https://github.com/kangax/html-minifier#options-quick-reference).\r\n\r\n### Default Options\r\n```javascript\r\nremoveComments: true,\r\ncollapseWhitespace: true,\r\nminifyJS: true\r\n```\r\n\r\n#### Example config\r\n\r\n```javascript\r\nfis.config.merge({\r\n\tmodules: {\r\n\t\toptimizer: {\r\n\t\t\thtml: \"htmlmin\"\r\n\t\t}\r\n\t},\r\n\tsettings: {\r\n\t\toptimizer: {\r\n\t\t\t\"htmlmin\": {\r\n\t\t\t\tminifyJS: false\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n})\r\n```\r\n",
-  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/babyzone2004/fis-postpackager-htmlmin/issues"
   },
-  "homepage": "https://github.com/babyzone2004/fis-postpackager-htmlmin",
-  "_id": "fis-optimizer-htmlmin@0.1.2",
-  "dist": {
-    "shasum": "2103ba7e0802ad2dcb963734cd55dc7c165fde1e"
-  },
-  "_from": "fis-optimizer-htmlmin"
+  "homepage": "https://github.com/babyzone2004/fis-postpackager-htmlmin"
 }

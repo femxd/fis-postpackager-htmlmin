@@ -1,7 +1,7 @@
 
 # fis-postpackager-htmlmin
 
-> Minify HTML with fis
+> Minify HTML with fis 
 
 
 
@@ -34,17 +34,8 @@ minifyJS: true
 
 ```javascript
 fis.config.merge({
-	modules: {
-		optimizer: {
-			html: "htmlmin"
-		}
-	},
-	settings: {
-		optimizer: {
-			"htmlmin": {
-				minifyJS: false
-			}
-		}
-	}
+  modules: {
+    postpackager: ['htmlmin']
+  }
 })
 ```
