@@ -15,7 +15,7 @@ npm install fis-postpackager-htmlmin -g
 ```
 
 ## Htmlmin task
-_Run this task with the `fis release -p` command._
+_Run this task with the `fis release -o` command._
 
 Minifies HTML using [html-minifier](https://github.com/kangax/html-minifier). Bugs regarding the output should be reported [here](https://github.com/kangax/html-minifier/issues/new).
 
@@ -34,8 +34,17 @@ minifyJS: true
 
 ```javascript
 fis.config.merge({
-  modules: {
-    postpackager: ['htmlmin']
-  }
+	modules: {
+		optimizer: {
+			html: "htmlmin"
+		}
+	},
+	settings: {
+		optimizer: {
+			"htmlmin": {
+				minifyJS: false
+			}
+		}
+	}
 })
 ```
