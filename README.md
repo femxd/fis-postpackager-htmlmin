@@ -36,6 +36,14 @@ minifyJS: true
 fis.config.merge({
   modules: {
     postpackager: ['htmlmin']
+  },
+  settings: {
+      optimizer: {
+          "htmlmin": {
+              minifyJS: false,
+              removeComments: false
+          }
+      }
   }
 })
 ```
