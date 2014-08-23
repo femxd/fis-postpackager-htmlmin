@@ -1,6 +1,6 @@
 {
   "name": "fis-postpackager-htmlmin",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Minify HTML",
   "main": "index.js",
   "scripts": {
