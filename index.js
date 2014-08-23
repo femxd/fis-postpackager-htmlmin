@@ -32,7 +32,7 @@ module.exports = function(ret, conf, settings, opt) {
         return;
     }
     var min;
-    var option = mix(defaultOptions, conf);
+    var option = mix(defaultOptions, settings);
 
     fis.util.map(ret.src, function(subpath, file) {
     if (file.isHtmlLike && file.noMapJs !== false) {
