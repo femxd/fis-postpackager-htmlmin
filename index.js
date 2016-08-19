@@ -28,9 +28,6 @@ var prettyBytes = function(num) {
 }
 
 module.exports = function(ret, conf, settings, opt) {
-    if (!opt.pack) {
-        return;
-    }
     var min;
     var option = mix(defaultOptions, settings);
 

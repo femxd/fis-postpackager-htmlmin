@@ -1,13 +1,13 @@
 {
-  "name": "fis-postpackager-htmlmin",
-  "version": "0.1.6",
+  "name": "fis3-postpackager-htmlmin",
+  "version": "0.0.1",
   "description": "Minify HTML",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fis",
+    "fis3",
     "optimizer",
     "html",
     "compress",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/babyzone2004/fis-postpackager-htmlmin.git"
+    "url": "https://github.com/femxd/fis3-postpackager-htmlmin.git"
   },
   "author": {
-    "name": "babyzone2004@qq.com"
+    "name": "liuchang2024@gmail.com"
   },
   "license": "MIT",
   "engines": {
@@ -31,7 +31,7 @@
     "html-minifier": "~0.6.0"
   },
   "bugs": {
-    "url": "https://github.com/babyzone2004/fis-postpackager-htmlmin/issues"
+    "url": "https://github.com/femxd/fis3-postpackager-htmlmin.git"
   },
-  "homepage": "https://github.com/babyzone2004/fis-postpackager-htmlmin"
+  "homepage": "https://github.com/femxd/fis3-postpackager-htmlmin.git"
 }
